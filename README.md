@@ -6,9 +6,9 @@ npm run serve
 
 To see the changes then run the below
 
-# change to the host-app in another terminal
+# change to the betja-app in another terminal
 
-cd ../host-app
+cd ../betja-app
 
 # build and run the application
 

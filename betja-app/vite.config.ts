@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     federation({
-      name: "host_app",
+      name: "betja_app",
       remotes: {
         component_library: "http://localhost:5001/assets/remoteEntry.js",
       },
