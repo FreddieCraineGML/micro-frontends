@@ -1,5 +1,5 @@
 {
-  "name": "remote-app",
+  "name": "betja-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 5001 --strictPort",
+    "preview": "vite preview --port 5000 --strictPort",
     "serve": "npm run build && npm run preview"
   },
   "dependencies": {

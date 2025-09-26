@@ -9,9 +9,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
     federation({
-      name: "host_app",
+      name: "betja_app",
       remotes: {
-        remote_app: "http://localhost:5001/assets/remoteEntry.js",
+        component_library: "http://localhost:5001/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
