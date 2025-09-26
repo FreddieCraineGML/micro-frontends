@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const RemoteSignUp = React.lazy(() => import("remote_app/SignUpShell"));
+const RemoteSignUp = React.lazy(() => import("component_library/SignUpShell"));
 
 export const SingleSignUp = () => {
   const [open, setOpen] = useState(true);

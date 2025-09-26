@@ -1,6 +1,6 @@
 // host - ./src/types/remote.d.ts
 // Look at making this automated in the future
-declare module "remote_app/Button" {
+declare module "component_library/Button" {
   const Button: React.FC<{
     text: string;
     onClick?: () => void;
@@ -8,12 +8,12 @@ declare module "remote_app/Button" {
   export default Button;
 }
 
-declare module "remote_app/Header" {
+declare module "component_library/Header" {
   const Header: React.FC;
   export default Header;
 }
 
-declare module "remote_app/SignUpShell" {
+declare module "component_library/SignUpShell" {
   import { ComponentType } from "react";
 
   interface SignUpShellProps {
