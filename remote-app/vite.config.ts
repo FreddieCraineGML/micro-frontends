@@ -14,6 +14,7 @@ export default defineConfig({
       exposes: {
         "./Button": "./src/components/Button",
         "./Header": "./src/components/Header",
+        "./SignUpShell": "./src/components/SignUp/SignUpShell",
       },
       shared: ["react", "react-dom"],
     }),
