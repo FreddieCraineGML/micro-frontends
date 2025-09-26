@@ -11,10 +11,8 @@ function App() {
       </div>
       <h1 className="text-3xl font-bold text-purple-700">🏠 Joka</h1>
       <p className="text-gray-700 mb-4">
-        This is the <span className="font-semibold">Host app</span> aka a
-        consuming app). Below you can see components fetched from the{" "}
-        <span className="text-blue-600">Remote app</span> aka the shared
-        library.
+        This is a consuming app (host app). Below you can see a component
+        fetched from the the shared library (remote app).
       </p>
       <MultiSignUp />
     </div>
