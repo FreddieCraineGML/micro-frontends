@@ -3,6 +3,7 @@ declare module "remote_app/Button" {
   const Button: React.FC<{
     text: string;
     onClick?: () => void;
+    options?: Array<"login" | "signup" | "forgotPassword">;
   }>;
   export default Button;
 }

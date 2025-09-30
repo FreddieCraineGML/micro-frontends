@@ -20,6 +20,7 @@ export const RemoteComponentWrapper = () => {
       <div className="mt-4">
         <Suspense fallback={<LoadingSpinner />}>
           <RemoteButton
+            options={["login", "signup", "forgotPassword"]}
             text="Remote Button"
             onClick={() =>
               alert(
