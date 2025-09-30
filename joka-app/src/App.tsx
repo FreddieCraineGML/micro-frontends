@@ -14,6 +14,7 @@ function App() {
         This is a consuming app (host app). Below you can see a component
         fetched from the the shared library (remote app).
       </p>
+
       <MultiSignUp />
     </div>
   );

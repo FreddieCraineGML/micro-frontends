@@ -1,1 +1,26 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom theme for Betja app */
+[data-theme="betja"] {
+  --p: 142 71% 45%; /* #22c55e - green */
+  --pc: 0 0% 0%; /* black text */
+  --s: 142 76% 36%; /* #16a34a - green-600 */
+  --sc: 0 0% 100%; /* white text */
+  --a: 142 85% 28%; /* #15803d - green-700 */
+  --ac: 0 0% 100%; /* white text */
+  --n: 215 28% 17%; /* #1f2937 - gray-800 */
+  --nc: 0 0% 100%; /* white text */
+  --b1: 215 28% 7%; /* #111827 - gray-900 */
+  --b2: 215 28% 17%; /* #1f2937 - gray-800 */
+  --b3: 215 20% 27%; /* #374151 - gray-700 */
+  --bc: 0 0% 100%; /* white text */
+  --in: 213 94% 68%; /* #3b82f6 - blue-500 */
+  --inc: 0 0% 100%; /* white text */
+  --su: 142 71% 45%; /* #22c55e - green */
+  --suc: 0 0% 0%; /* black text */
+  --wa: 38 92% 50%; /* #f59e0b - yellow-500 */
+  --wac: 0 0% 0%; /* black text */
+  --er: 0 84% 60%; /* #ef4444 - red-500 */
+  --erc: 0 0% 100%; /* white text */
+}

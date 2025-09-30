@@ -96,7 +96,7 @@ export default function SignUp({
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50">
-      <div className="bg-white p-6 rounded-xl w-96 shadow-lg">
+      <div className="neutral p-6 rounded-xl w-96 shadow-lg">
         <h2 className="text-xl font-bold mb-4">Sign Up</h2>
 
         {submitted ? (
@@ -116,41 +116,29 @@ export default function SignUp({
             {renderFields()}
 
             <div className="flex justify-between mt-4">
-              <button className="text-gray-600" onClick={onClose}>
+              <button className="btn btn-primary" onClick={onClose}>
                 Cancel
               </button>
 
               {mode === "multi" ? (
                 <div>
                   {step > 1 && (
-                    <button
-                      className="px-3 py-1 border rounded mr-2"
-                      onClick={onBack}
-                    >
+                    <button className="btn btn-primary" onClick={onBack}>
                       Back
                     </button>
                   )}
                   {step < 3 ? (
-                    <button
-                      className="px-3 py-1 bg-blue-600 text-white rounded"
-                      onClick={onNext}
-                    >
+                    <button className="btn btn-primary" onClick={onNext}>
                       Next
                     </button>
                   ) : (
-                    <button
-                      className="px-3 py-1 bg-green-600 text-white rounded"
-                      onClick={onSubmit}
-                    >
+                    <button className="btn btn-primary" onClick={onSubmit}>
                       Submit
                     </button>
                   )}
                 </div>
               ) : (
-                <button
-                  className="px-3 py-1 bg-green-600 text-white rounded"
-                  onClick={onSubmit}
-                >
+                <button className="btn btn-primary" onClick={onSubmit}>
                   Submit
                 </button>
               )}

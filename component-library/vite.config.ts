@@ -16,7 +16,7 @@ export default defineConfig({
         "./Header": "./src/components/Header",
         "./SignUpShell": "./src/components/SignUp/SignUpShell",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "tailwindcss", "daisyui"],
     }),
   ],
   build: {
@@ -24,6 +24,9 @@ export default defineConfig({
     target: "esnext",
     minify: false,
     cssCodeSplit: false,
+    rollupOptions: {
+      external: ["tailwindcss", "daisyui"],
+    },
   },
   preview: {
     port: 5001,
