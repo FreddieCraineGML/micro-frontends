@@ -95,8 +95,8 @@ export default function SignUp({
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/50">
-      <div className="neutral p-6 rounded-xl w-96 shadow-lg">
+    <div className="flex items-center justify-center">
+      <div className="card bg-neutral p-6 rounded-xl w-96 shadow-lg">
         <h2 className="text-xl font-bold mb-4">Sign Up</h2>
 
         {submitted ? (

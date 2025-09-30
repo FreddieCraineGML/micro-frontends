@@ -1,0 +1,41 @@
+@plugin "daisyui/theme" {
+  name: "betja";
+  default: true;
+
+  --color-base-100: hsl(215 28% 7%); /* #111827 - gray-900 */
+  --color-base-200: hsl(215 28% 17%); /* #1f2937 - gray-800 */
+  --color-base-300: hsl(215 20% 27%); /* #374151 - gray-700 */
+  --color-base-content: hsl(0 0% 100%); /* white text */
+  --color-primary: hsl(142 71% 45%); /* #22c55e - green */
+  --color-primary-content: hsl(0 0% 0%); /* black text */
+  --color-secondary: hsl(142 76% 36%); /* #16a34a - green-600 */
+  --color-secondary-content: hsl(0 0% 100%); /* white text */
+  --color-accent: hsl(142 85% 28%); /* #15803d - green-700 */
+  --color-accent-content: hsl(0 0% 100%); /* white text */
+  --color-neutral: hsl(215 28% 17%); /* #1f2937 - gray-800 */
+  --color-neutral-content: hsl(0 0% 100%); /* white text */
+  --color-info: hsl(213 94% 68%); /* #3b82f6 - blue-500 */
+  --color-info-content: hsl(0 0% 100%); /* white text */
+  --color-success: hsl(142 71% 45%); /* #22c55e - green */
+  --color-success-content: hsl(0 0% 0%); /* black text */
+  --color-warning: hsl(38 92% 50%); /* #f59e0b - yellow-500 */
+  --color-warning-content: hsl(0 0% 0%); /* black text */
+  --color-error: hsl(0 84% 60%); /* #ef4444 - red-500 */
+  --color-error-content: hsl(0 0% 100%); /* white text */
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
+}

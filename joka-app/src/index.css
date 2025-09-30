@@ -1,26 +1,2 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
-/* Custom theme for Joka app */
-[data-theme="joka"] {
-  --p: 45 100% 50%; /* #FFD700 - yellow */
-  --pc: 0 0% 0%; /* black text */
-  --s: 38 92% 50%; /* #f59e0b - yellow-500 */
-  --sc: 0 0% 0%; /* black text */
-  --a: 32 95% 44%; /* #d97706 - yellow-600 */
-  --ac: 0 0% 0%; /* black text */
-  --n: 215 28% 17%; /* #1f2937 - gray-800 */
-  --nc: 0 0% 100%; /* white text */
-  --b1: 215 28% 7%; /* #111827 - gray-900 */
-  --b2: 215 28% 17%; /* #1f2937 - gray-800 */
-  --b3: 215 20% 27%; /* #374151 - gray-700 */
-  --bc: 0 0% 100%; /* white text */
-  --in: 213 94% 68%; /* #3b82f6 - blue-500 */
-  --inc: 0 0% 100%; /* white text */
-  --su: 38 92% 50%; /* #f59e0b - yellow-500 */
-  --suc: 0 0% 0%; /* black text */
-  --wa: 38 92% 50%; /* #f59e0b - yellow-500 */
-  --wac: 0 0% 0%; /* black text */
-  --er: 0 84% 60%; /* #ef4444 - red-500 */
-  --erc: 0 0% 100%; /* white text */
-}
