@@ -12,8 +12,8 @@ function App() {
       </div>
       <h1 className="text-3xl font-bold text-purple-700">🏠 Betja</h1>
       <p className="text-gray-700 mb-4">
-        This is a consuming app (host app). Below you can see components
-        fetched from the shared library (remote app).
+        This is a consuming app (host app). Below you can see components fetched
+        from the shared library (remote app).
       </p>
       <div className="space-y-6">
         <SingleSignUp />

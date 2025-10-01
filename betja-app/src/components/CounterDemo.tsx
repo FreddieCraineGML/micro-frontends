@@ -9,7 +9,9 @@ interface UseCounterReturn {
 }
 
 export const CounterDemo = () => {
-  const [hookModule, setHookModule] = useState<{ useCounter: (initialValue?: number) => UseCounterReturn } | null>(null);
+  const [hookModule, setHookModule] = useState<{
+    useCounter: (initialValue?: number) => UseCounterReturn;
+  } | null>(null);
   const [count, setCount] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -29,8 +31,8 @@ export const CounterDemo = () => {
   // Use the hook once it's loaded, fallback to local state
   const counter = hookModule?.useCounter?.(0) || {
     count,
-    increment: () => setCount(prev => prev + 1),
-    decrement: () => setCount(prev => prev - 1),
+    increment: () => setCount((prev) => prev + 1),
+    decrement: () => setCount((prev) => prev - 1),
     reset: () => setCount(0),
   };
 
@@ -53,7 +55,7 @@ export const CounterDemo = () => {
       <p className="text-gray-600 mb-4">
         This demonstrates how custom hooks can be shared via micro frontends!
       </p>
-      
+
       <div className="space-y-4">
         <div className="text-center">
           <div className="text-4xl font-bold text-blue-600 mb-2">
@@ -61,7 +63,7 @@ export const CounterDemo = () => {
           </div>
           <p className="text-sm text-gray-500">Current Count</p>
         </div>
-        
+
         <div className="flex gap-2 justify-center">
           <button
             onClick={counter.decrement}
@@ -82,7 +84,7 @@ export const CounterDemo = () => {
             +
           </button>
         </div>
-        
+
         <div className="text-xs text-gray-400 text-center">
           Hook shared from component-library via Module Federation
         </div>
