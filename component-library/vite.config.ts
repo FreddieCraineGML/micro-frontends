@@ -15,6 +15,7 @@ export default defineConfig({
         "./Button": "./src/components/Button",
         "./Header": "./src/components/Header",
         "./SignUpShell": "./src/components/SignUp/SignUpShell",
+        "./useCounter": "./src/hooks/useCounter",
       },
       shared: ["react", "react-dom", "tailwindcss", "daisyui"],
     }),
