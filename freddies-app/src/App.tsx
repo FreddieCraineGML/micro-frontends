@@ -9,10 +9,10 @@ function App() {
       <div className="flex flex-col justify-center items-center mb-4">
         <img src={viteLogo} alt="Host Logo" className="w-20 h-20" />
 
-        <h1 className="text-3xl font-bold text-purple-700">🏠 Betja</h1>
+        <h1 className="text-3xl font-bold text-purple-700">🏠 Freddie</h1>
         <p className="text-gray-700 mb-4">
-          This is a test betja project installing the signup-shell package from
-          npm
+          This is a test freddie project installing the signup-shell package
+          from npm
         </p>
         <SignUpShell isOpen={true} onClose={() => {}} mode="multi" />
       </div>
