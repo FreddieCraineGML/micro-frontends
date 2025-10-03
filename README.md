@@ -1,15 +1,29 @@
+# Run a build, and run / load the app on port 5000
+
+```
 cd ./component-library
-
-# run a build, and run / load the app on port 5000
-
+npm run build
 npm run serve
+```
 
-To see the changes then run the below
+# Change to the betja-app in another terminal
 
-# change to the betja-app in another terminal
+`cd ../betja-app`
 
-cd ../betja-app
+# Build and run the application
 
-# build and run the application
+```
+npm run build
+npm run dev
+```
 
-npm run serve
+# Adding a new component in the component library
+
+- Create the component in the component library
+- Expose it in the vite.config.ts in the component library
+- Rebuild & server the component library
+- Add it to the TypeScript declaration file (remote-app.d.ts) in the consuming app
+- Rebuild the consuming app
+- Create a component that imports from the component library e.g.
+
+`const RemoteSignUp = React.lazy(() => import("component_library/SignUpShell"));`
